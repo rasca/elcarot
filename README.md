@@ -1,7 +1,15 @@
 El Carot
 ========
 
-El Carot is a new Tarot deck.
+Un mazo de los 22 arcanos mayores del Tarot.
+
+Representados por personajes que empiezan con la letra C: El Carot.
+
+----
+
+A deck of the 22 major arcana of the Tarot.
+
+Represented by characters that start with the letter C: The Carot.
 
 El Carot Online
 ---------------
@@ -14,5 +22,3 @@ Installing
 ----------
 
 We use sveltekit, you can find install instructions in `elcarot/README.md`.
-
-

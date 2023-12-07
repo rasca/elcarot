@@ -1,59 +1,28 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import Card from './Card.svelte';
+	// import welcome from '$lib/images/svelte-welcome.webp';
+	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>El Carot</title>
+	<meta name="description" content="Un mazo de los 22 arcanos mayores del Tarot. Representados por personajes que empiezan con la letra C: El Carot." />
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<p>
+		Toca la pantalla cuando lo sientas para obtener tu carta
+	</p>
+	<Card></Card>
 </section>
 
 <style>
 	section {
+		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+		align-items: stretch;
 	}
 
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
 </style>
