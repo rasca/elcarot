@@ -1,11 +1,22 @@
 <script lang="ts">
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
 	export let arcana_number = 0;
 
 	$: arcana_image = `/src/lib/images/arcana/arcana_${arcana_number}.jpg`;
 
 </script>
 
-<div class="card" style="--bg-img: url('{arcana_image}')">
+<div
+ class="card"
+ style="--bg-img: url('{arcana_image}')"
+ on:click={() => dispatch('select')}
+ on:keypress={() => dispatch('select')}
+ role="button"
+ tabindex="0"
+>
 	<!-- <img src={arcana_image} alt="arcana"/> -->
 </div>
 
