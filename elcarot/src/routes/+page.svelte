@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Card from './Card.svelte';
+	import Deck from './Deck.svelte';
+	// import Card from './Card.svelte';
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 
@@ -7,13 +8,13 @@
 	let interval: any;
 	let arcana_number = 0;
 
-	$: if (shuffling) {
-		interval = setInterval(() => {
-			changeCard();
-		}, 100);
-	} else {
-		clearInterval(interval);
-	}
+	// $: if (shuffling) {
+	// 	interval = setInterval(() => {
+	// 		changeCard();
+	// 	}, 100);
+	// } else {
+	// 	clearInterval(interval);
+	// }
 
 	let changeCard = () => {
 		arcana_number = Math.floor(Math.random() * 22);
@@ -29,7 +30,7 @@
 	<p>
 		Toca la pantalla cuando lo sientas para obtener tu carta
 	</p>
-	<Card arcana_number={arcana_number} on:select={() => shuffling = false}></Card>
+	<Deck />
 	<div class="buffer"></div>
 </section>
 
