@@ -8,9 +8,9 @@
 	let imageSource: any;
 
 	$: if (faceUp) {
-		imageSource = `/src/lib/images/arcana/arcana_${arcana_number}.png`;
+		imageSource = `img/arcana/arcana_${arcana_number}.png`;
 	} else {
-		imageSource = `/src/lib/images/arcana/back.png`;
+		imageSource = `img/arcana/back.png`;
 	}
 
 </script>

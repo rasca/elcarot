@@ -34,7 +34,7 @@
 
 	// Preload all images and trigger an event when done
 	onMount(() => {
-		Promise.all(cards.map(card => preloadImage(`/src/lib/images/arcana/arcana_${card}.png`)))
+		Promise.all(cards.map(card => preloadImage(`img/arcana/arcana_${card}.png`)))
 		.then(() => {
 			loading = false;
 			dispatch('load');
