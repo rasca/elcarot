@@ -1,13 +1,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 
 	import Card from './Card.svelte';
 
+	const dispatch = createEventDispatcher();
+
 	const cardsCount = 22;
-	let loading = true;
-	let error = false;
 	let cards = [...Array(cardsCount).keys()];
     let activeCardIndex: number = 0;
+
+	let loading = true;
+	let error = false;
 	let selected = false;
 
 	let deck: Element;
@@ -15,12 +19,8 @@
 	let select = (event: any) => {
 		// stop the interval
 		selected = true;
+		dispatch('select', activeCardIndex);
 	}
-
-	// let interval = setInterval(() => {
-	// 	// set card to a random number of cardsCount
-	// 	activeCardIndex = Math.floor(Math.random() * cardsCount);
-	// }, 100)
 
 	// Function to preload a single image
 	function preloadImage(url: string) {
@@ -29,26 +29,25 @@
 			img.src = url;
 			img.onload = resolve;
 			img.onerror = reject;
-	});
+		});
   }
 
 	// Preload all images and trigger an event when done
 	onMount(() => {
 		Promise.all(cards.map(card => preloadImage(`/src/lib/images/arcana/arcana_${card}.png`)))
 		.then(() => {
-			console.log('All images preloaded successfully');
 			loading = false;
+			dispatch('load');
 
 			// Request the next frame
 			requestAnimationFrame(changeImage);
 		})
 		.catch(error => {
 			error = true;
-			console.error('Error preloading images:', error);
 		});
 	});
 
-	let selectNewCard = () => {
+	 let selectNewCard = () => {
 		let newIndex = Math.floor(Math.random() * (cardsCount - 1));
 		if (newIndex >= activeCardIndex) {
 			newIndex++;
@@ -61,7 +60,6 @@
 		if (selected) {
 			return;
 		}
-		console.log(timestamp - lastTimestamp);
 		// Check if 100ms have passed since the last image update
 		if (timestamp - lastTimestamp > 100) {
 			selectNewCard();
@@ -82,9 +80,7 @@
 >
 	{#if error }
 	error
-	{:else if loading}
-	loading
-	{:else}
+	{:else if !loading}
 	<Card arcana_number={activeCardIndex} faceUp={true}/>
 	{/if}
 </div>

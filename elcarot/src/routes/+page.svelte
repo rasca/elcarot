@@ -1,24 +1,22 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
+
 	import Deck from './Deck.svelte';
-	// import Card from './Card.svelte';
-	// import welcome from '$lib/images/svelte-welcome.webp';
-	// import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import Loader from './Loader.svelte';
 
-	let shuffling = true;
-	let interval: any;
-	let arcana_number = 0;
+	let loading = true;
 
-	// $: if (shuffling) {
-	// 	interval = setInterval(() => {
-	// 		changeCard();
-	// 	}, 100);
-	// } else {
-	// 	clearInterval(interval);
-	// }
+	let selectedCard: number | undefined;
 
-	let changeCard = () => {
-		arcana_number = Math.floor(Math.random() * 22);
+	let cardSelected = (event: any) => {
+		selectedCard = event.detail;
+		console.log(event);
 	}
+
+	let cardsLoaded = (event: any) => {
+		loading = false;
+	}
+
 </script>
 
 <svelte:head>
@@ -27,10 +25,14 @@
 </svelte:head>
 
 <section>
-	<p>
+	{#if loading}
+	<Loader/>
+	{:else if selectedCard === undefined}
+	<p transition:slide>
 		Toca la pantalla cuando lo sientas para obtener tu carta
 	</p>
-	<Deck />
+	{/if}
+	<Deck on:select={cardSelected} on:load={cardsLoaded}/>
 	<div class="buffer"></div>
 </section>
 
