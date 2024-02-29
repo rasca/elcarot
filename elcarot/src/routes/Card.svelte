@@ -8,9 +8,9 @@
 	let imageSource: any;
 
 	$: if (faceUp) {
-		imageSource = `/src/lib/images/arcana/arcana_${arcana_number}.jpg`;
+		imageSource = `/src/lib/images/arcana/arcana_${arcana_number}.png`;
 	} else {
-		imageSource = `/src/lib/images/arcana/back.jpg`;
+		imageSource = `/src/lib/images/arcana/back.png`;
 	}
 
 </script>
@@ -23,25 +23,20 @@
  role="button"
  tabindex="0"
 >
-	<div class="img"></div>
+	<img src={imageSource} alt="carot card"/>
 </div>
 
 <style lang="scss">
 	.card {
 		flex-grow: 1;
 		display: flex;
-		flex-direction: row;
-		height: 50%;
-		width: 50%;
-		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
-	.img {
+	img {
+		// object-fit: contain;
 		aspect-ratio: 910 / 1596 ;
-		background-image: var(--bg-img);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		border-radius: 1rem;
-		box-shadow: -1px -1px 2px 2px transparentize(black, 0.8);
+		height: 10px;
+		flex: 1 0 0 ;
 	}
 </style>
