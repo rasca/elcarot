@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#D4EFEC"/>
+<g transform="translate(16, 16)">
+  <!-- 6-pointed star -->
+  <polygon points="0,-12 3.5,-5 10.4,-6 6.9,0 10.4,6 3.5,5 0,12 -3.5,5 -10.4,6 -6.9,0 -10.4,-6 -3.5,-5" fill="rgba(0, 0, 0, 0.7)"/>
+</g>
+</svg>
