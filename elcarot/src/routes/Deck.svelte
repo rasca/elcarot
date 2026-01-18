@@ -22,6 +22,11 @@
 		dispatch('select', activeCardIndex);
 	}
 
+	export function reset() {
+		selected = false;
+		requestAnimationFrame(changeImage);
+	}
+
 	// Function to preload a single image
 	function preloadImage(url: string) {
 		return new Promise((resolve, reject) => {

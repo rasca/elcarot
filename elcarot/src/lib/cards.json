@@ -1,0 +1,178 @@
+[
+  {
+    "id": 0,
+    "name": "El Loco",
+    "character": "Charly García",
+    "image": "img/arcana/arcana_0.png",
+    "description": "Charly encarna al Arcano sin número, El Loco. Representa la carta de los primeros pasos, del impulso creativo y de los comienzos caóticos. Es el espíritu libre, en movimiento, impredecible, que confía en su intuición. Incomprendido a veces, pero fiel a sí mismo. Desapegado de lo material, abierto a lo nuevo, su energía es puro potencial sin moldear. Como Charly, avanza sin miedo por el borde, arriesgando todo en nombre de lo auténtico. No temas ser diferente o incomprendido. Tu originalidad es tu mayor tesoro, pero recuerda que la verdadera libertad requiere también responsabilidad.",
+    "quote": "Hubo un tiempo que fue hermoso, y fui libre de verdad"
+  },
+  {
+    "id": 1,
+    "name": "El Mago",
+    "character": "Charles Chaplin",
+    "image": "img/arcana/arcana_1.png",
+    "description": "El Mago tiene el poder de tomar el vacío y darle forma. Une cielo y tierra. Observa lo que lo rodea y tiene la capacidad de transformar la realidad usando habilidades y recursos disponibles. De actor cómico a cineasta influyente, Chaplin supo convertir talento, ingenio y humor en \"magia\" narrativa. Canaliza lo espiritual y lo físico para lograr sus objetivos. Tenemos todo lo que necesitamos para hacer magia, y el impulso necesario para iniciar cualquier proyecto. Tomá lo que tenés y ponelo al servicio de algo mayor. Tu magia no es truco, es presencia.",
+    "quote": "Canta, ríe, baila, llora y vive intensamente, antes que el telón baje y la obra termine sin aplausos"
+  },
+  {
+    "id": 2,
+    "name": "La Papisa",
+    "character": "Cleopatra",
+    "image": "img/arcana/arcana_2.png",
+    "description": "La Sacerdotisa es la guardiana del gran inconsciente. Representa el misterio, la sabiduría interior, lo oculto y lo femenino intuitivo. Cleopatra encarna este arquetipo desde su poder silencioso, su inteligencia estratégica y su magnetismo enigmático. Como la Sacerdotisa que guarda secretos tras el velo del templo, Cleopatra supo leer el mundo político y espiritual de su tiempo, combinando seducción con conocimiento. Su figura conecta con la intuición profunda y el saber ancestral que no necesita mostrarse para imponerse: simplemente se manifiesta y transforma.",
+    "quote": "Como el amor ama lo que es bello, es preciso concluir que el amor es amante de la sabiduría"
+  },
+  {
+    "id": 3,
+    "name": "La Emperatriz",
+    "character": "Cher",
+    "image": "img/arcana/arcana_3.png",
+    "description": "La Emperatriz, símbolo de abundancia, fertilidad y creatividad, refleja el poder femenino en su máxima expresión. Cher, diva e icono de la música y la moda, encarna esta carta con su fuerza, elegancia y reinvención constante. A veces caprichosa, ella es creadora de su propio mundo, irradiando belleza, seguridad y sensualidad sin miedo a mostrarse auténtica. Su energía fértil inspira a romper esquemas, florecer y manifestar sueños en realidad. Cher representa la esencia vital de la Emperatriz: amor, poder y creación en armonía.",
+    "quote": "Mom, I am a rich man"
+  },
+  {
+    "id": 4,
+    "name": "El Emperador",
+    "character": "Carlomagno",
+    "image": "img/arcana/arcana_4.png",
+    "description": "El Emperador simboliza orden, estructura, liderazgo y soberanía. Carlomagno, padre de Europa, encarna este poder organizador que funda leyes y construye imperios. Es la carta número 4, representa estabilidad y materia, los cuatro elementos en equilibrio y los puntos cardinales. Es el principio activo masculino que crea, defiende y guía la civilización. Su autoridad equilibra poder y amor, mostrando que el verdadero liderazgo nace del control, la responsabilidad y la sabiduría para proteger y consolidar el orden. Carlomagno inspira firmeza y visión para conquistar y unificar.",
+    "quote": "El verdadero poder nace del equilibrio entre la autoridad firme y el amor que protege"
+  },
+  {
+    "id": 5,
+    "name": "El Papa",
+    "character": "Carlín Calvo",
+    "image": "img/arcana/arcana_5.png",
+    "description": "El Papa es guía espiritual y puente entre mundos, símbolo de sabiduría y ternura. Carlín Calvo, con su profundidad y calidez, encarna este rol de maestro compasivo que enseña desde la emoción, el humor y la fragilidad. Como el Papa, Carlín nos invita a creer en algo más allá, en el amor que sana y en la fe que acompaña sin imponer. Recuerda que el verdadero maestro no impone, acompaña. Su legado es amoroso, espiritual y profundamente humano, conectando generaciones y dejando una huella imborrable.",
+    "quote": "El maestro auténtico no solo guía, sino que camina a tu lado con compasión"
+  },
+  {
+    "id": 6,
+    "name": "Los Enamorados",
+    "character": "Caramelito",
+    "image": "img/arcana/arcana_6.png",
+    "description": "Los Enamorados simbolizan la elección, el deseo y la unión de opuestos, invitándonos a escuchar el llamado del corazón. Como en un Jardín del Edén, Caramelito aparece como un ángel que integra con dulzura lo masculino y femenino, razón y pasión, dejando atrás el control para abrirnos a nuevas opciones. Su ternura y presencia entrañable representan un amor puro e inocente, que en El Carot nos recuerda que elegir con el corazón, aunque simple, es un acto profundo y el inicio de la vida social con dulzura y amor.",
+    "quote": "La magia del amor radica en la sencillez de un abrazo y la pureza de una sonrisa"
+  },
+  {
+    "id": 7,
+    "name": "El Carro",
+    "character": "Cristóbal Colón",
+    "image": "img/arcana/arcana_7.png",
+    "description": "Esta carta representa la acción en todos los planos, la partida hacia lo nuevo y lo desconocido, con coraje para abandonar la seguridad. El Carro simboliza avance, conquista y fuerza de voluntad. Cristóbal Colón encarna esta energía de acción decidida, impulsado a ir más allá de los límites conocidos. Como el Carro, avanzó entre dudas y tormentas, guiado por una visión única. Esta carta invita a tomar el control del rumbo propio, con valentía y determinación, recordando que solo con voluntad firme se logra la verdadera conquista.",
+    "quote": "Nunca se debe temer a ir adelante, aunque el camino sea incierto"
+  },
+  {
+    "id": 8,
+    "name": "La Justicia",
+    "character": "El Chapulín Colorado",
+    "image": "img/arcana/arcana_8.png",
+    "description": "La Justicia representa equilibrio, causa y efecto, y reparación. El Chapulín Colorado, torpe pero justo, encarna la ética del corazón: un sentido del bien que surge de la empatía, no de libros. Su presencia, como la Justicia, aparece cuando todo parece perdido para restaurar lo que fue roto. El Chapu simboliza un estado de estabilidad material y espiritual, invitando a una introspección profunda y objetiva. Su espada corta lo superfluo y pone orden, marcando el momento de dejar el pasado atrás y actuar con astucia y precisión en el presente.",
+    "quote": "No contaban con mi astucia"
+  },
+  {
+    "id": 9,
+    "name": "El Ermitaño",
+    "character": "Confucio",
+    "image": "img/arcana/arcana_9.png",
+    "description": "El Ermitaño simboliza la búsqueda interior y la sabiduría cultivada en silencio. Como Confucio, el sabio por excelencia, camina con su lámpara para iluminar a otros desde la coherencia, no el protagonismo. Invita a entrar en crisis y elevar la luz interior para guiar a otros. Sube a la montaña y contempla en soledad, lejos del ruido del mundo. Busca retrospectivamente y conecta con su propia sabiduría. Da un paso hacia lo desconocido; puede representar tanto la máxima comprensión como un estado de crisis profunda. El Ermitaño deja todo para ir en busca de verdad.",
+    "quote": "El silencio es un amigo que jamás traiciona"
+  },
+  {
+    "id": 10,
+    "name": "La Rueda de la Fortuna",
+    "character": "Cucumelo",
+    "image": "img/arcana/arcana_10.png",
+    "description": "La Rueda de la Fortuna representa el cambio constante, los ciclos impredecibles, el destino en movimiento. Para entrar en nuevos mundos se requiere de una mente poco controladora y de sentidos perceptivos, despiertos. Esta carta representa el ciclo sin fin de la vida, el movimiento perpetuo del universo. Se encuentra en el centro entre el pasado y el futuro. Podemos reemplazar el miedo que aparece ante el cambio por maneras amorosas y entusiastas. Es un buen momento para abrir la percepción y estar disponible para sorprenderte.",
+    "quote": "A veces hay que perderse para encontrar otro sentido"
+  },
+  {
+    "id": 11,
+    "name": "La Fuerza",
+    "character": "El Che",
+    "image": "img/arcana/arcana_11.png",
+    "description": "La Fuerza representa el dominio de uno mismo, el coraje sereno y la potencia interior que no necesita imponerse. No es fuerza bruta, sino templanza, convicción y confianza. El Che encarna esta energía: su lucha no fue solo política, fue espiritual, nacida de una pasión inquebrantable por la justicia. Como la mujer que doma al león, supo canalizar su fuego interno con idealismo y entrega. Esta carta habla del poder que surge cuando se alinean cuerpo, mente y espíritu. El Che representa la fuerza que no grita, que no humilla, pero transforma.",
+    "quote": "La revolución se lleva en el corazón, no en la boca para vivir de ella"
+  },
+  {
+    "id": 12,
+    "name": "El Colgado",
+    "character": "Cablin",
+    "image": "img/arcana/arcana_12.png",
+    "description": "El Colgado representa una pausa necesaria, un momento de inversión de perspectiva, donde el sacrificio abre la puerta a una comprensión más profunda. Cablin, con Claudio Morgado colgado en pantalla, es imagen literal y simbólica de ese estado suspendido, entre lo absurdo y lo revelador. Esta carta no habla de inacción, sino de rendición consciente: dejar de forzar para ver desde otro ángulo. El Colgado es entrega lúdica, tiempo detenido, espera fértil. Nos invita a soltar el control, a dejar que la transformación ocurra desde el no-hacer. A veces, colgarse es el primer paso para despertar.",
+    "quote": "El que se cuelga, a veces, ve lo que nadie más está mirando"
+  },
+  {
+    "id": 13,
+    "name": "La Muerte",
+    "character": "Cara Cortada",
+    "image": "img/arcana/arcana_13.png",
+    "description": "La Muerte es transformación. Representa el fin de una etapa y el inicio de otra, el corte necesario para que algo nuevo pueda surgir. Cara Cortada, con su rostro marcado y su destino trágico, encarna esta energía implacable. Como la carta, trae un cambio irreversible, que arrasa con lo viejo, sin pedir permiso. Representa la ruptura con lo establecido, el precio del deseo desmedido y la oportunidad oculta en cada caída. La Muerte no es castigo, es tránsito. Nos invita a soltar, a dejar morir lo que ya no somos, para renacer más livianos, más verdaderos.",
+    "quote": "Para nacer de nuevo, primero hay que dejar morir lo viejo"
+  },
+  {
+    "id": 14,
+    "name": "La Templanza",
+    "character": "Cristo",
+    "image": "img/arcana/arcana_14.png",
+    "description": "Cristo encarna el arquetipo de la Templanza: unión de lo humano y lo divino, equilibrio entre materia y espíritu. Representa la capacidad de transformar el dolor en compasión, el conflicto en armonía. Como el ángel de la carta, canaliza energías opuestas y las integra con amor. No impone, fluye. Su mensaje es el de la moderación, la fe activa y el poder sanador del corazón abierto. La Templanza es alquimia espiritual, y Cristo, con su entrega, muestra que el verdadero milagro es la transformación interna, ser puente entre el cielo y la tierra.",
+    "quote": "No se turbe vuestro corazón, ni tenga miedo"
+  },
+  {
+    "id": 15,
+    "name": "El Diablo",
+    "character": "Cacho Castaña",
+    "image": "img/arcana/arcana_15.png",
+    "description": "El Diablo representa la tentación, el deseo sin filtros, la sombra que habita en lo profundo del ser. Nos muestra la vía hacia nuestras partes ocultas, recordándonos que para alcanzar la luz debemos aceptar y honrar nuestro lado animal. Cacho Castaña, con su voz rasposa y su imagen de galán canalla, encarna esa figura provocadora que no oculta nada: el placer, el vicio, pero también el falso orgullo y la manipulación. Es el espejo de lo que reprimimos. Esta carta no juzga, revela. Nos invita a mirar de frente nuestras ataduras y preguntarnos si aún tienen sentido.",
+    "quote": "El amor es el único vicio que vale la pena"
+  },
+  {
+    "id": 16,
+    "name": "La Torre",
+    "character": "Chano",
+    "image": "img/arcana/arcana_16.png",
+    "description": "La Torre simboliza la destrucción repentina, la sacudida, el derrumbe de estructuras que creíamos firmes, y la ruptura con lo establecido para dar paso a la renovación. La energía del rayo viene a liberar una estructura que no da para más. Chano, con su historia de altos y bajos, encarna esta carta: un artista que enfrentó caídas profundas y revelaciones dolorosas. Representa ese momento explosivo que destruye para liberar, se mueve el piso, pero lo estructural se mantiene. La Torre nos recuerda que, aunque el caos asuste, es necesario para abrir paso a la luz.",
+    "quote": "El mundo está cambiando y ya no tiene explicación"
+  },
+  {
+    "id": 17,
+    "name": "La Estrella",
+    "character": "Cristian Castro",
+    "image": "img/arcana/arcana_17.png",
+    "description": "La desnudez de Cristian representa al ser que ha llegado a la pureza, aquel que toma contacto con su esencia verdadera. Revela un alma que ha tocado su esencia y brilla sin máscaras. La Estrella no tiene nada que ocultar, actúa en el mundo irrigándolo, nutriéndolo con sus talentos e inteligencia. Lo que recibe del cosmos, lo vierte en la tierra para poder fertilizarla. Su generosidad es fuente inagotable, dando y recibiendo en un mismo movimiento de purificación. Representa al guía espiritual que llevamos dentro. En el Carot, esta es la carta estresha.",
+    "quote": "Un manantial azul que me llena de amor"
+  },
+  {
+    "id": 18,
+    "name": "La Luna",
+    "character": "Chayanne",
+    "image": "img/arcana/arcana_18.png",
+    "description": "La Luna representa lo inconsciente, lo cíclico, la ilusión y los sueños. Chayanne, figura del deseo y la fantasía de generaciones, vibra en esta energía de romance, idealización y misterio. Conecta con el lado nocturno del alma: aquello que no entendemos pero sentimos profundamente. Nos invita a entrar en contacto con nuestra vulnerabilidad, nuestro lado femenino y emocional, iluminando temores, deseos y pasiones que emergen de las aguas profundas del inconsciente. La Luna es sinónimo de sueños, visiones e imaginación, de intuición, ilusión y amor total.",
+    "quote": "Una noche de luna a la orilla del mar es el lugar perfecto para conversar"
+  },
+  {
+    "id": 19,
+    "name": "El Sol",
+    "character": "Celia Cruz",
+    "image": "img/arcana/arcana_19.png",
+    "description": "El Sol es alegría, vitalidad y claridad, luz que disipa sombras y celebra la vida en plenitud. Representa éxito, confianza y crecimiento personal, siendo también símbolo del padre protector que guía con energía y calidez. Celia Cruz encarna esta carta con su risa contagiosa, energía explosiva y su inconfundible ¡Azúcar! Su brillo no solo ilumina, sino que contagia alegría y autenticidad. El Sol es felicidad sin culpa, luz que despierta y calor que abraza, como la voz y espíritu de Celia.",
+    "quote": "La vida es un carnaval y las penas se van bailando"
+  },
+  {
+    "id": 20,
+    "name": "El Juicio",
+    "character": "Coco Chanel",
+    "image": "img/arcana/arcana_20.png",
+    "description": "El Juicio es despertar, renacimiento, llamado interior. Representa el momento en que el alma escucha su verdad y se libera del pasado para avanzar liviana hacia lo nuevo. Coco Chanel encarna esta carta como figura que rompió moldes, resucitando a sí misma y a una época desde su visión audaz. El Juicio es ruptura y revelación: Chanel no solo creó moda, creó una nueva forma de ser mujer y definió nuevos estándares de belleza. Su vida fue un llamado a la autenticidad, una voz que emerge desde lo profundo para marcar un antes y un después.",
+    "quote": "Mi vida no me gustaba, así que la cambié"
+  },
+  {
+    "id": 21,
+    "name": "El Mundo",
+    "character": "Deepak Chopra",
+    "image": "img/arcana/arcana_21.png",
+    "description": "El Mundo es la carta final del viaje de los Arcanos Mayores: representa la realización, la totalidad, la integración del ser. Marca el cierre de un ciclo evolutivo y la apertura consciente hacia uno nuevo. Chopra encarna esta energía con su visión integradora entre ciencia y espiritualidad, siendo símbolo de armonía, unidad y despertar. El Mundo es danza cósmica, presencia plena, conexión con el todo. Chopra nos recuerda que el universo está en nosotros y que al alinearnos con su sabiduría, reconocemos que ya somos completos.",
+    "quote": "Tú no estás en el universo, tú eres el universo, una parte inseparable de él"
+  }
+]
